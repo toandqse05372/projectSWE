@@ -105,7 +105,7 @@ button.icon-hover:hover {
 
 .btn-success1:hover {
     color: #fff;
-    background-color: #212121;
+    background-color: yellowgreen;
     
 }
 
@@ -136,7 +136,7 @@ li a {
     background-color: #ef1a1a;
 }
 .diff:hover{
-    background-color: blue;
+    background-color: palevioletred;
 }
 
 .menubar {
