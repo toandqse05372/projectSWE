@@ -784,20 +784,20 @@ select option {
 }
 .bordered {
                 width: 500px;
-                height: 400px;
+                height: 375px;
                 padding: 20px;
                 border-width: 6px;
                 border-color: #4cae7e;
-                border-style: double;
+                border-style: dotted dashed solid double;
                 float: right;
             }
 
             .bordered1 {
                 width: 500px;
-                height: 500px;
+                height: 425px;
                 padding: 20px;
                 border-width: 6px;
-                border-color: yellowgreen;
+                border-color: #4cae7e;
                 border-style: dotted dashed solid double;
                 margin-left: 200px;
             }
@@ -806,7 +806,7 @@ select option {
                 height: 100px;
                 padding: 10px;
                 border-width: 6px;
-                border-color: yellowgreen;
+                border-color: #4cae7e;
                 border-style: dotted;
                 margin-left: 0px;
             }

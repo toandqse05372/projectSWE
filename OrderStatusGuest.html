@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <title></title>
     <!-- <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <script type="text/javascript" src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>  -->
@@ -13,7 +12,7 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
-
+    <script type="text/javascript" src="orderFull.js"></script>
     <script type="text/javascript" src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <!-- <link href="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg" rel="icon"> -->
 </head>
@@ -23,8 +22,12 @@
     <div class="container mainbar">
         <div class="container">
             <div style="margin-top: 2%;margin-left: 80%">
-                <button style="width: 120px; height: 40px;" type="button" class="btn btn-success1 diff"><a href="SignIn.html" style="text-decoration: none; color: white;"> Sign In</a></button>
-                <button style="width: 100px; height: 40px;" type="button" class="btn btn-success1 "><a href="SignUp.html" style="text-decoration: none; color: white;"> SignUp</a></button>
+                <a href="SignIn.html">
+                    <button style="width: 120px; height: 40px;" type="button" class="btn btn-success1 "> Sign In</button>
+                </a>
+                <a href="SignUp.html">
+                    <button style="width: 100px; height: 40px;" type="button" class="btn btn-success1 diff"> SignUp</button>
+                </a>
             </div>
             <div class="">
                 <div class="logo">
@@ -33,7 +36,14 @@
                     </a>
                 </div>
 
+                <!-- <div class="search">
 
+                    <span>
+                        <input class="textbox" type="text" placeholder="Nhập gì đó ...">
+                        <a href="project.html"> <button class="btn icon-hover" type="submit" style="border-radius: 0 4px 4px 0;">Tìm kiếm</button></a>
+                    </span>
+
+                </div> -->
                 <div class=" " style="box-sizing: border-box;padding-top:1.3%;float:right; margin-top: 4%;" ,>
                     <form method="post">
                         <input type="text" class="textbox" placeholder="Search">
@@ -56,71 +66,71 @@
                     <a href="project.html" class="nav-link fa fa-home" style="font-size:24px">&nbspHome</a>
                 </li>
                 <li class="nav-item">
-                    <a href="SignIn.html" class="nav-link fa fa-truck" style="font-size:24px">&nbspCreate New Order</a>
+                    <a href="CreateOrder.html" class="nav-link fa fa-truck" style="font-size:24px">&nbspCreate New Order</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="SignIn.html" class="nav-link dropbtn fa fa-archive" style="font-size:24px">&nbspMy Order</a>
+                    <a href="CreatedOrder.html" class="nav-link dropbtn fa fa-archive" style="font-size:24px">&nbspMy Order</a>
                     <ul class="dropdown-content">
                         <li>
-                            <a href="SignIn.html">Created Order</a>
+                            <a href="CreatedOrder.html">Created Order</a>
                         </li>
                         <li>
-                            <a href="SignIn.html">Management Order</a>
+                            <a href="CreateOrder.html">Added Order</a>
                         </li>
                     </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                        <a href="SignIn.html" class="nav-link dropbtn fa fa-archive" style="font-size:24px">&nbspProfile</a>
-                        <ul class="dropdown-content">
-                            <li>
-                                <a href="SignIn.html">Your Profile</a>
-                            </li>
-                            <li>
-                                <a href="SignIn.html">Edit Profile</a>
-                            </li>
-                        </ul>
-                    </li>
+                    <a href="Profile.html" class="nav-link dropbtn fa fa-archive" style="font-size:24px">&nbspProfile</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="Profile.html">Your Profile</a>
+                        </li>
+                        <li>
+                            <a href="EditProfile.html">Edit Profile</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
 
-    
-
-    <div class="container1" style="margin-top: 2%; margin-bottom: 5%; margin-left: 30%">
-        <h1 class="testsign">Log In!</h1>
- 
-            <div class="row1" style="width: 70%;">
-                <div class="input-group input-group-icon">
-                    <input type="text" placeholder="User Name" />
-                    <div class="input-icon">
-                        <i class="fa fa-user"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="row1" style="width: 70%;">
-                <div class="input-group input-group-icon">
-                    <input type="password" placeholder="Password" />
-                    <div class="input-icon">
-                        <i class="fa fa-key"></i>
-                    </div>
-                </div>
-            </div>
-        <div>
-        <a href="HomeLogin.html">
-            <button style="width: 100px; margin-left: 1%" type="button" class="btn btn-success1">Log In</button>
-        </a>
-            
-        </div>
-            
-        
-
-        <div class="row1" style="margin-top: 5%">
-        <div class="col-half testsign">Forgot your password?</div>
-        <div class="col-half testsign">Don't have an account?<a href="SignUp.html"> Sign Up!</a></div>
-        </div>
-        
+    <!--information-->
+    <div style="margin-left: 375px">
+        <h2 style="color:red">Order Status</h2>
     </div>
+
+
+    <div style="overflow: auto;">
+        <p></p>
+        <img src="http://9mobi.vn/cf/Images/ba/2018/3/28/google-maps-ho-tro-39-ngon-ngu-khac-nhau.jpg" style="border:0px;margin-right: 150px;float: right;"
+        />
+        <div class="bordered1">
+            <div align="center">
+                <p id='id'></p>
+                <h4 style="background-color:red; height: 23px;" id='fromer'></h4>
+                <h4 style="background-color: yellowgreen; height: 23px;" id='to'></h4>
+            </div>
+            <div class="bordered2">
+                <p id="reciever"></p>
+            </div>
+            <p></p>
+            <p id='order'></p>
+            <p></p>
+            <div align="center">
+                <a href=".html">
+                    <button style="width: 200px; height: 50px;" type="button" class="btn btn-success1 "> Report Problem</button>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <p></p>
+
+
+
+
 
     <!-- footer -->
     <footer id="myFooter">
