@@ -2,7 +2,7 @@ window.onload = function () {
 
     var myObj, v, x, p, y, z, a, b, c, d, e;
     myObj = {
-        "name": "Vuhkse05247",
+        "name":"Vuhkse05247",
         "password": "********",
         "birth": "22/12/1998",
         "sex": "Male",
