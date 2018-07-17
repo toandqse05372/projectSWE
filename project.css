@@ -18,25 +18,6 @@
     margin-top: 3%;
 }
 
-
-/* .textbox {
-    height: 30px;
-    width: 50%;
-    padding: 12px 30px; 
-    background-color: rgb(193, 209, 240);
-    color: #212121;
-    border: 0;
-    float: left;
-    -webkit-border-radius: 4px 0 0 4px;
-    border-radius: 4px 0 0 4px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    background-image: url('media/2.png');
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
-    margin-top: 0.4%;
-    
-} */
 form > .textbox {
     height: 30px;
     width: 300px;
@@ -699,8 +680,9 @@ select option {
 }
 .avatar2{
     background-color:#73AD21;
-    width:150px;
-    height:150px;
+    margin: 0em 0em 1em 2em;
+    width:170px;
+    height:170px;
     border-radius:50%;
     border: 2px solid black;
 
@@ -756,7 +738,7 @@ select option {
 .container0 {
     max-width: 70em;
     height: 40em;
-    margin: 0em 0em 0em 20em;
+    margin: 4em 4em 4em 20em;
     border-radius: 4.2px;
     
 }
@@ -769,7 +751,7 @@ select option {
 }
 
 .container3 {
-    float: right;
+    float: left;
     border: 2px solid black;
     border-radius: 12px;
     padding: 10px 10px 10px 10px;
@@ -778,6 +760,15 @@ select option {
     border-radius: 4.2px;
     
 }
+.container22{
+    float: left;
+    border-radius: 12px;
+    width: 20em;
+    height: 20em;
+    border-radius: 4.2px;
+    
+}
+
 
 .file{
     height: 100px;
