@@ -1,6 +1,7 @@
 .mainbar {
     width: 100%;
-    /*su 1 ti*/
+    
+    /* float: left;
     display: flex;
     flex-flow: row; */
     justify-content: center;
