@@ -1,6 +1,5 @@
 window.onload = function () {
     var info = {
-        "id": "1235425432",
         "owner": "Vuhkse05247   ", //username cua chu hang
         "ownerPhone": "0969622396",
         "reciever": "Datpmse05386",
@@ -13,8 +12,7 @@ window.onload = function () {
     var fromLocation = info.ordersname;
     var toLocation = 'Address: ' + info.address;
     var human2 = info.owner;
-    var human = 'ID: ' + info.id
-            + '<br></br>' +'Owner: ' + info.owner
+    var human = 'Owner: ' + info.owner
             + '<br></br>' + 'Owner Phone: ' + info.ownerPhone
             + '<br></br>' + 'Receiver Name: ' + info.reciever
             + '<br></br>' + 'Receiver Phone: ' + info.recieverPhone

@@ -784,10 +784,29 @@ select option {
 }
 .bordered {
                 width: 500px;
-                height: 440px;
+                height: 400px;
                 padding: 20px;
                 border-width: 6px;
                 border-color: #4cae7e;
                 border-style: double;
                 float: right;
+            }
+
+            .bordered1 {
+                width: 500px;
+                height: 500px;
+                padding: 20px;
+                border-width: 6px;
+                border-color: yellowgreen;
+                border-style: dotted dashed solid double;
+                margin-left: 200px;
+            }
+            .bordered2 {
+                width: 450px;
+                height: 100px;
+                padding: 10px;
+                border-width: 6px;
+                border-color: yellowgreen;
+                border-style: dotted;
+                margin-left: 0px;
             }
